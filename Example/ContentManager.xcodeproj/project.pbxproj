@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		076C026E83BC8F13D2A9AF96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		076C026E83BC8F13D2A9AF96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		19D1B1965230C92C4E325BDD /* Pods-ContentManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-ContentManager_Tests/Pods-ContentManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		34667FE106C7FE250A4605F2 /* Pods_ContentManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContentManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4967CE4CCF17A9B2B78D5CED /* ContentManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ContentManager.podspec; path = ../ContentManager.podspec; sourceTree = "<group>"; };
+		4967CE4CCF17A9B2B78D5CED /* ContentManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ContentManager.podspec; path = ../ContentManager.podspec; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ContentManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContentManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		C16B0687E2F4C29E86EF6CF0 /* Pods-ContentManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ContentManager_Tests/Pods-ContentManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F73F74221545DC377000E25A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F73F74221545DC377000E25A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,6 @@
 				C16B0687E2F4C29E86EF6CF0 /* Pods-ContentManager_Tests.debug.xcconfig */,
 				19D1B1965230C92C4E325BDD /* Pods-ContentManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,12 +130,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = G4SB2WMHN2;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -147,6 +143,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -328,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C16B0687E2F4C29E86EF6CF0 /* Pods-ContentManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = G4SB2WMHN2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -350,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19D1B1965230C92C4E325BDD /* Pods-ContentManager_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = G4SB2WMHN2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

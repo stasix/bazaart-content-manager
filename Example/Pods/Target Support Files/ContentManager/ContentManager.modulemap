@@ -1,0 +1,6 @@
+framework module ContentManager {
+  umbrella header "ContentManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
